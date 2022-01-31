@@ -40,7 +40,7 @@ class Article
     private $createdAt;
 
     /**
-     * @ORM\ManyToMany(targetEntity=category::class, inversedBy="articles")
+     * @ORM\ManyToMany(targetEntity=Category::class, inversedBy="articles")
      */
     private $category;
 
